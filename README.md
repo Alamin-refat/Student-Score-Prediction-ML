@@ -34,9 +34,10 @@ This project aims to develop a machine learning model that predicts students' fi
 ---
 
 ## ⚙️ Installation
-CODEbash
+```bash
 pip install -r requirements.txt
-CODE
+
+```
 
 ---
 
