@@ -33,21 +33,25 @@ This project aims to develop a machine learning model that predicts students' fi
 
 ---
 
-## Installation
-```bash
+## ⚙️ Installation
+CODEbash
 pip install -r requirements.txt
+CODE
 
+---
 
-📌 Project Status
+## 📌 Project Status
 🚧 This project is currently in progress.  
 Further updates will include data analysis, model training, evaluation, and results.
 
+---
 
-📬 Contact
+## 📬 Contact
 For feedback, suggestions, or collaboration opportunities, feel free to reach out.
 
 🔗 LinkedIn: https://www.linkedin.com/in/alamin-refat-414b99262/  
-📧 Email: alaminrefat2017@gmail.com 
+📧 Email: alaminrefat2017@gmail.com
+ 
 
 
 
