@@ -36,6 +36,14 @@ The dataset includes student demographics, parental education background, test p
 
 ---
 
+## 🔎 Exploratory Data Analysis (EDA)
+- Performed target variable analysis to understand score distribution
+- Analyzed numerical and categorical features
+- Explored relationships between features and the target variable
+- Conducted correlation analysis to identify strong predictors
+
+---
+
 ## 🛠️ Technologies Used
 - Python  
 - NumPy  
