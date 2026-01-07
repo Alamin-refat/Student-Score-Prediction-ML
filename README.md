@@ -23,6 +23,19 @@ This project aims to develop a machine learning model that predicts students' fi
 
 ---
 
+## 📊 Dataset
+This project uses the **Students Performance in Exams** dataset collected from Kaggle.
+
+The dataset includes student demographics, parental education background, test preparation status, and exam scores in mathematics, reading, and writing.
+
+**Target Variable:**
+- Average student score
+
+**Source:**
+- Kaggle 
+
+---
+
 ## 🛠️ Technologies Used
 - Python  
 - NumPy  
