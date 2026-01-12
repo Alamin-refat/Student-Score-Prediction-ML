@@ -19,7 +19,7 @@ This project aims to develop a machine learning model that predicts students' fi
 ## 🎯 Objective
 - Understand the relationship between study habits and student performance  
 - Build a regression-based machine learning model  
-- Predict students' final scores using historical data  
+- Predict student Math score using demographic and academic features. 
 
 ---
 
