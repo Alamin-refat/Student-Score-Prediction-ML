@@ -48,3 +48,4 @@ if st.button("Predict Math Score"):
     prediction = model.predict(input_data)[0]
 
     st.success(f"📊 Predicted Math Score: **{prediction:.2f}**")
+
