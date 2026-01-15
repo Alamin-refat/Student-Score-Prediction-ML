@@ -6,103 +6,159 @@ The goal is to demonstrate a complete ML workflow — from data analysis to depl
 
 ---
 
-## 🎯 Objective
-To develop a robust regression model that accurately predicts **Math scores** while ensuring a **leakage-free and production-ready pipeline**.
+## 🚀 Live Demo
+
+- **Streamlit Cloud:** https://student-score-prediction-ml-zfcmhmfohejlxjlfq5kq8y.streamlit.app/  
+- **Hugging Face Spaces:** https://huggingface.co/spaces/Alamin-refat/student-score-prediction
 
 ---
 
-## 📂 Dataset
-The dataset contains student demographic information along with academic scores in reading and writing.  
-Both numerical and categorical features are included and handled using appropriate preprocessing techniques.
+## 📌 Project Overview
+
+This project focuses on predicting a student’s **Math score** using factors such as reading score, writing score, gender, parental education, lunch type, and test preparation status.
+
+The goal is to showcase a realistic, production-ready machine learning workflow rather than a simple notebook-based experiment.
 
 ---
 
-## 🧪 Methodology
-1. Data Cleaning & Preparation  
-2. Exploratory Data Analysis (EDA)  
-3. Feature Engineering  
-4. Model Selection & Training  
-5. Cross-Validation  
-6. Feature Importance Analysis  
-7. Final Model Saving & Inference  
+## 🎯 Objectives
+
+- Perform comprehensive exploratory data analysis (EDA)
+- Build a clean, leakage-free regression pipeline
+- Train and compare multiple regression models
+- Select and optimize the best-performing model
+- Deploy the model as an interactive web application
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
-EDA was performed on all score-related variables to understand distributions, correlations, and patterns.  
-After analysis, **Math score** was selected as the modeling target to ensure a **leakage-free pipeline**.
+## 📊 Dataset
+
+The dataset contains student performance records with the following attributes:
+
+- Gender  
+- Race/Ethnicity  
+- Parental level of education  
+- Lunch type  
+- Test preparation course  
+- Reading score  
+- Writing score  
+- Math score (target variable)
+
+> **Note:** EDA was performed on all score variables, and **Math score** was selected as the final prediction target to ensure a leakage-free modeling pipeline.
+
+---
+
+## 🔍 Exploratory Data Analysis (EDA)
+
+Key EDA steps included:
+
+- Distribution analysis of student scores
+- Outlier detection using box plots
+- Numerical feature correlation analysis
+- Categorical feature impact analysis
+- Correlation heatmaps to identify relationships between scores
+
+Insights from EDA guided feature selection and modeling decisions.
 
 ---
 
 ## 🛠 Feature Engineering
-- One-hot encoding for categorical variables  
-- Standard scaling for numerical features  
-- Unified preprocessing using `ColumnTransformer`  
+
+- One-hot encoding of categorical variables
+- Careful feature selection to avoid target leakage
+- Train–test split with reproducibility
+- Prepared features suitable for linear and regularized models
 
 ---
 
-## 🤖 Model Training & Evaluation
+## 🤖 Model Training & Selection
+
 The following regression models were trained and evaluated:
+
 - Linear Regression  
 - Ridge Regression  
 - Lasso Regression  
-- Random Forest  
+- Random Forest Regressor  
 
-**Best Performing Model:** Lasso Regression
+### ✅ Final Model Choice
+**Lasso Regression** was selected due to:
+
+- Strong generalization performance
+- Built-in regularization
+- Automatic feature selection
+- High interpretability of coefficients
 
 ---
 
 ## 📈 Final Model Performance
-- **R² Score:** 0.88  
-- **RMSE:** 5.38  
-- **MAE:** 4.21  
+
+| Metric | Value |
+|------|------|
+| MAE | ~4.21 |
+| RMSE | ~5.39 |
+| R² Score | ~0.88 |
+
+The model explains approximately **88% of the variance** in student math scores.
 
 ---
 
-## 🔁 Model Validation
-5-Fold Cross-Validation was performed using a full preprocessing + modeling pipeline to ensure model stability and generalization.
+## 🔎 Feature Importance & Interpretation
+
+Model coefficients were analyzed to interpret feature impact.
+
+Key observations:
+
+- Writing score and reading score are the strongest predictors
+- Gender and lunch type have noticeable influence
+- Parental education level contributes moderately
+- The model remains interpretable and explainable
 
 ---
 
-## 🔍 Feature Importance & Interpretation
-Key insights from the model:
-- Writing score is the strongest predictor of math performance  
-- Reading score also has significant influence  
-- Gender, lunch type, and test preparation impact outcomes  
-- Parental education provides additional predictive signal  
+## 🌐 Deployment
 
----
+The application is deployed on **two platforms**:
 
-## 💾 Model Saving & Inference
-The final preprocessing + modeling pipeline was saved using `joblib`, enabling direct prediction on unseen data without manual preprocessing.
+### 1️⃣ Streamlit Cloud
+- Direct deployment using Streamlit
+- Public live demo for real-time predictions
 
----
+### 2️⃣ Hugging Face Spaces (Docker-based)
+- Dockerized Streamlit application
+- Demonstrates cross-platform deployment capability
 
-## 📌 Project Status
-✅ Completed — Model trained, validated, interpreted, and saved for deployment.
-
----
-
-## 🚀 Future Work
-- Hyperparameter tuning with GridSearchCV  
-- Model deployment using Streamlit or REST API  
-- Evaluation on external or real-world datasets  
+During deployment, several real-world challenges were addressed:
+- Python and library version mismatches
+- Dependency installation failures
+- Windows-to-Linux environment differences
 
 ---
 
 ## 🧰 Tech Stack
+
 - Python  
 - Pandas, NumPy  
+- Scikit-learn  
 - Matplotlib, Seaborn  
-- Scikit-Learn  
-- Jupyter Notebook  
+- Streamlit  
+- Docker (for Hugging Face deployment)
+
+---
+
+## 🧠 Key Learnings
+
+- Built a complete ML pipeline from data analysis to deployment
+- Gained hands-on experience with model optimization and evaluation
+- Resolved real-world dependency and environment issues
+- Deployed the same ML application across multiple platforms
 
 ---
 
 ## 📬 Contact
-**Alamin Refat**  
-📧 Email: your- alaminrefat2017@gmail.com  
-🔗 GitHub: https://github.com/Alamin-refat 
 
+**Author:** Alamin Refat  
+**GitHub:** https://github.com/Alamin-refat  
+**LinkedIn:** https://www.linkedin.com/in/alamin-refat-414b99262/ 
+**Email:** alaminrefat2017@gmail.com 
 
-
+Feel free to connect for feedback, collaboration, or discussion.
