@@ -1,8 +1,9 @@
 # 🎓 Student Score Prediction – Machine Learning Project
 
 ## 🔍 Project Overview
-This project builds an end-to-end Machine Learning pipeline to predict students’ **Math scores** using academic performance and demographic features.  
-The goal is to demonstrate a complete ML workflow — from data analysis to deployment-ready modeling.
+This project focuses on predicting a student’s **Math score** using factors such as reading score, writing score, gender, parental education, lunch type, and test preparation status.
+
+The goal is to showcase a realistic, production-ready machine learning workflow rather than a simple notebook-based experiment.
 
 ---
 
@@ -10,14 +11,6 @@ The goal is to demonstrate a complete ML workflow — from data analysis to depl
 
 - **Streamlit Cloud:** https://student-score-prediction-ml-zfcmhmfohejlxjlfq5kq8y.streamlit.app/  
 - **Hugging Face Spaces:** https://huggingface.co/spaces/Alamin-refat/student-score-prediction
-
----
-
-## 📌 Project Overview
-
-This project focuses on predicting a student’s **Math score** using factors such as reading score, writing score, gender, parental education, lunch type, and test preparation status.
-
-The goal is to showcase a realistic, production-ready machine learning workflow rather than a simple notebook-based experiment.
 
 ---
 
