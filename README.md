@@ -255,9 +255,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 * ✅ **Private use:** You can use it privately for your own projects.
 
 ---
-> **Disclaimer:** The software is provided "as is", without warranty of any kind, express or implied.
-
----
 
 ## 📬 Contact & Connect
 
