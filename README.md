@@ -211,6 +211,21 @@ This project is in its initial phase, and I plan to scale it with the following 
 
 ---
 
+## ⚖️ License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+### 📜 Summary of Permissions:
+* ✅ **Commercial use:** You can use this software for commercial purposes.
+* ✅ **Modification:** You can modify the code.
+* ✅ **Distribution:** You can distribute the code to others.
+* ✅ **Private use:** You can use it privately for your own projects.
+
+---
+> **Disclaimer:** The software is provided "as is", without warranty of any kind, express or implied.
+
+---
+
 ## 📬 Contact
 
 **Author:** Alamin Refat  
