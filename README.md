@@ -168,10 +168,12 @@ Student-Score-Prediction-ML/
 ├── .devcontainer/                 # Development container configuration
 ├── .ipynb_checkpoints/           # Jupyter notebook checkpoints
 ├── Data/                         # Dataset directory
+├── assets/                       # Images/GIFs for README (নতুন যোগ করা হয়েছে)
 ├── README.md                     # Main project documentation
 ├── Dockerfile                    # Docker configuration for deployment
 ├── app.py                        # Streamlit web application
 ├── requirements.txt              # Python dependencies
+├── LICENSE                       # MIT License file (নতুন যোগ করা হয়েছে)
 ├── student_score_model.pkl       # Trained model (pickle file)
 └── student_score_prediction.ipynb # Main Jupyter notebook with full ML pipeline
 ```
