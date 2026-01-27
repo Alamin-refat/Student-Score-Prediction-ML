@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/demo.gif" alt="App Demo" width="100%">
+</p>
+
 [![Live Demo](https://img.shields.io/badge/Live-Demo-red)](https://student-score-prediction-ml-zfcmhmfohejlxjlfq5kq8y.streamlit.app/)
 
 # 🎓 Student Score Prediction – Machine Learning Project
