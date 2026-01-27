@@ -145,25 +145,6 @@ Key observations:
 
 ---
 
-## 🌐 Deployment
-
-The application is deployed on **two platforms**:
-
-### 1️⃣ Streamlit Cloud
-- Direct deployment using Streamlit
-- Public live demo for real-time predictions
-
-### 2️⃣ Hugging Face Spaces (Docker-based)
-- Dockerized Streamlit application
-- Demonstrates cross-platform deployment capability
-
-During deployment, several real-world challenges were addressed:
-- Python and library version mismatches
-- Dependency installation failures
-- Windows-to-Linux environment differences
-
----
-
 ## 🛠️ Tech Stack & Tools
 
 - Python  
@@ -222,6 +203,25 @@ Launch the web application locally to interact with the churn prediction model:
 ```bash
 streamlit run app.py
 ```
+---
+
+## 🌐 Deployment
+
+The application is deployed on **two platforms**:
+
+### 1️⃣ Streamlit Cloud
+- Direct deployment using Streamlit
+- Public live demo for real-time predictions
+
+### 2️⃣ Hugging Face Spaces (Docker-based)
+- Dockerized Streamlit application
+- Demonstrates cross-platform deployment capability
+
+During deployment, several real-world challenges were addressed:
+- Python and library version mismatches
+- Dependency installation failures
+- Windows-to-Linux environment differences
+
 ---
 
 ## 🗺️ Future Roadmap
