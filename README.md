@@ -1,23 +1,31 @@
 # 🎓 Student Score Prediction – Machine Learning Project
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/Alamin-refat/Student-Score-Prediction-ML?style=for-the-badge&color=blueviolet" alt="Repo Size" />
-  <img src="https://img.shields.io/github/actions/workflow/status/Alamin-refat/Student-Score-Prediction-ML/main.yml?style=for-the-badge&logo=githubactions&logoColor=white" alt="Build Status" />
-  <img src="https://img.shields.io/github/last-commit/Alamin-refat/Student-Score-Prediction-ML?style=for-the-badge&color=orange" alt="Last Commit" />
-  
-  <br />
-
-  <img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
-  
-  <br />
-
-  <a href="https://github.com/Alamin-refat/Student-Score-Prediction-ML/stargazers">
-    <img src="https://img.shields.io/github/stars/Alamin-refat/Student-Score-Prediction-ML?style=for-the-badge&color=ffd700&labelColor=333" alt="Stars" />
+  <a href="https://github.com/Alamin-refat/Student-Score-Prediction-ML">
+    <img src="https://img.shields.io/github/actions/workflow/status/Alamin-refat/Student-Score-Prediction-ML/main.yml?style=flat-square&logo=githubactions&logoColor=white&label=Build%20Status&color=2ea44f" alt="Build Status">
+  </a>
+  <a href="https://github.com/Alamin-refat/Student-Score-Prediction-ML">
+    <img src="https://img.shields.io/github/last-commit/Alamin-refat/Student-Score-Prediction-ML?style=flat-square&logo=git&logoColor=white&color=007ec6&label=Last%20Updated" alt="Last Commit">
   </a>
   <a href="https://github.com/Alamin-refat/Student-Score-Prediction-ML/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/Alamin-refat/Student-Score-Prediction-ML?style=for-the-badge&color=2ea44f" alt="License" />
+    <img src="https://img.shields.io/github/license/Alamin-refat/Student-Score-Prediction-ML?style=flat-square&logo=opensourceinitiative&logoColor=white&color=blueviolet&label=License" alt="License">
+  </a>
+
+  <br>
+
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask">
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-Learn">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
+
+  <br>
+
+  <a href="https://github.com/Alamin-refat/Student-Score-Prediction-ML/stargazers">
+    <img src="https://img.shields.io/github/stars/Alamin-refat/Student-Score-Prediction-ML?style=flat-square&color=ffce54&label=Stars" alt="Stars">
+  </a>
+  <a href="https://github.com/Alamin-refat/Student-Score-Prediction-ML/network/members">
+    <img src="https://img.shields.io/github/forks/Alamin-refat/Student-Score-Prediction-ML?style=flat-square&color=8cc152&label=Forks" alt="Forks">
   </a>
 </p>
 
