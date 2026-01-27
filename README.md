@@ -131,7 +131,7 @@ During deployment, several real-world challenges were addressed:
 
 ---
 
-## 🧰 Tech Stack
+## 🛠️ Tech Stack & Tools
 
 - Python  
 - Pandas, NumPy  
@@ -139,6 +139,31 @@ During deployment, several real-world challenges were addressed:
 - Matplotlib, Seaborn  
 - Streamlit  
 - Docker (for Hugging Face deployment)
+
+---
+## 📂 Project Structure
+
+A detailed look at the repository's organization:
+
+Student-Score-Prediction-ML/
+│
+├── .devcontainer/                 # Development container configuration
+│
+├── .ipynb_checkpoints/           # Jupyter notebook checkpoints
+│
+├── Data/                         # Dataset directory
+│
+├── README.md                     # Main project documentation
+│
+├── Dockerfile                    # Docker configuration for deployment
+│
+├── app.py                        # Streamlit web application
+│
+├── requirements.txt              # Python dependencies
+│
+├── student_score_model.pkl       # Trained model (pickle file)
+│
+└── student_score_prediction.ipynb # Main Jupyter notebook with full ML pipeline
 
 ---
 
