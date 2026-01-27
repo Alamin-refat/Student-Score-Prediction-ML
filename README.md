@@ -94,8 +94,16 @@ Insights from EDA guided feature selection and modeling decisions.
 
 ## 🧠 Technical Workflow
 
-The project follows a structured Machine Learning pipeline to ensure reliable predictions:
+The project implements a systematic Machine Learning pipeline to ensure high-performance and reliable predictions:
 
+```mermaid
+graph LR
+    A[Data Acquisition] --> B[EDA & Visualization]
+    B --> C[Preprocessing]
+    C --> D[Model Training: Lasso]
+    D --> E[Evaluation & Metrics]
+    E --> F[Cloud Deployment]
+ ```
 1. **Data Acquisition:** Importing student dataset using `Pandas` for structured analysis.
 2. **Exploratory Data Analysis (EDA):** Visualizing data distribution and correlation using `Matplotlib` and `Seaborn` to confirm linearity.
 3. **Data Preprocessing:** Splitting the dataset into features ($X$) and target ($y$), followed by a **Train-Test Split** (80/20) to validate model performance.
