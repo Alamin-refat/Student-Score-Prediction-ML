@@ -158,6 +158,38 @@ Student-Score-Prediction-ML/
 └── student_score_prediction.ipynb # Main Jupyter notebook with full ML pipeline
 ```
 ---
+## 💻 Installation & Usage
+
+Follow these steps to set up the project locally on your machine:
+
+### 1. Clone the Repository
+Open your terminal or command prompt and run:
+```bash
+git clone [https://github.com/Alamin-refat/Student-Score-Prediction-ML.git](https://github.com/Alamin-refat/Student-Score-Prediction-ML.git)
+cd Student-Score-Prediction-ML
+```
+### 2. Create a Virtual Environment (Recommended)
+This keeps the project dependencies isolated and prevents conflicts:
+```bash
+# For Windows
+python -m venv venv
+venv\Scripts\activate
+
+# For Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+### 3. Install Required Libraries
+Install all necessary dependencies listed in the requirements file to ensure the environment is ready:
+```bash
+pip install -r requirements.txt
+```
+### 4. Run the Streamlit Dashboard
+Launch the web application locally to interact with the churn prediction model:
+```bash
+streamlit run app.py
+```
+---
 
 ## 🧠 Key Learnings
 
