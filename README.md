@@ -14,13 +14,14 @@ The goal is to showcase a realistic, production-ready machine learning workflow 
 
 ---
 
-## 🎯 Objectives
+## 🚀 Key Features
 
-- Perform comprehensive exploratory data analysis (EDA)
-- Build a clean, leakage-free regression pipeline
-- Train and compare multiple regression models
-- Select and optimize the best-performing model
-- Deploy the model as an interactive web application
+* **Lasso Regression Implementation:** Leverages the **Lasso (Least Absolute Shrinkage and Selection Operator)** algorithm to perform linear regression with **L1 Regularization**, minimizing the risk of overfitting.
+* **Predictive Modeling:** Accurately forecasts student Math Score based on study hours, providing data-driven academic insights.
+* **Regularization Control:** Employs an optimized `alpha` parameter to penalize large coefficients, ensuring a more generalized and robust model.
+* **Comprehensive EDA:** Includes **Exploratory Data Analysis** using `Seaborn` and `Matplotlib` to visualize data distribution and the regression best-fit line.
+* **Performance Benchmarking:** Model efficiency is validated using standard metrics like **Mean Absolute Error (MAE)** and **Root Mean Squared Error (RMSE)**.
+* **Scalable Pipeline:** Designed with a clean, modular workflow—from data preprocessing and splitting (`train_test_split`) to final model evaluation.
 
 ---
 
