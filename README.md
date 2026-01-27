@@ -191,12 +191,23 @@ streamlit run app.py
 ```
 ---
 
-## 🧠 Key Learnings
+## 🗺️ Future Roadmap
 
-- Built a complete ML pipeline from data analysis to deployment
-- Gained hands-on experience with model optimization and evaluation
-- Resolved real-world dependency and environment issues
-- Deployed the same ML application across multiple platforms
+This project is in its initial phase, and I plan to scale it with the following enhancements:
+
+### 🔹 Model & Data Enhancements
+* **Advanced Algorithms:** Beyond Lasso, I aim to implement **ElasticNet**, **Ridge**, and **Ensemble Methods** (like Random Forest) to compare performance.
+* **AutoML Integration:** Incorporate **PyCaret** or **Auto-Sklearn** to automate the model selection and hyperparameter tuning process.
+* **Feature Engineering:** Add more variables such as *Previous Grades*, *Attendance Percentage*, and *Sleep Hours* to increase prediction precision.
+
+### 🔹 Web & Deployment
+* **Modern Frontend:** Transition from basic HTML to a reactive framework like **React.js** or **Streamlit** for a smoother user experience.
+* **Database Integration:** Implement **SQLite** or **PostgreSQL** to store user inputs and predicted results for historical tracking.
+* **Cloud Native:** Containerize the application using **Docker** and deploy it on **AWS/Azure** using a robust CI/CD pipeline.
+
+### 🔹 Analytics & Monitoring
+* **Live Dashboard:** Add an interactive dashboard using **Plotly** or **Dash** to visualize student progress and trends.
+* **Drift Detection:** Implement model monitoring to detect "Data Drift" and trigger retraining when student performance patterns change.
 
 ---
 
