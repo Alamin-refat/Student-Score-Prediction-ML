@@ -68,16 +68,19 @@ The project follows a structured Machine Learning pipeline to ensure reliable pr
 
 ---
 
-## 🛠 Feature Engineering
+## 📊 Final Model Performance
 
-- One-hot encoding of categorical variables
-- Careful feature selection to avoid target leakage
-- Train–test split with reproducibility
-- Prepared features suitable for linear and regularized models
+| Metric | Value |
+|------|------|
+| MAE | ~4.21 |
+| RMSE | ~5.39 |
+| R² Score | ~0.88 |
+
+The model explains approximately **88% of the variance** in student math scores.
 
 ---
 
-## 🤖 Model Training & Selection
+## 🧪 Model Comparison & Selection
 
 The following regression models were trained and evaluated:
 
@@ -93,18 +96,6 @@ The following regression models were trained and evaluated:
 - Built-in regularization
 - Automatic feature selection
 - High interpretability of coefficients
-
----
-
-## 📈 Final Model Performance
-
-| Metric | Value |
-|------|------|
-| MAE | ~4.21 |
-| RMSE | ~5.39 |
-| R² Score | ~0.88 |
-
-The model explains approximately **88% of the variance** in student math scores.
 
 ---
 
