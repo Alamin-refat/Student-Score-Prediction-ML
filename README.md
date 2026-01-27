@@ -94,22 +94,40 @@ Insights from EDA guided feature selection and modeling decisions.
 
 ## 🧠 Technical Workflow
 
-The project implements a systematic Machine Learning pipeline to ensure high-performance and reliable predictions:
+The project implements a systematic Machine Learning pipeline to ensure high-performance and reliable predictions.
 
-```mermaid
-graph LR
-    A[Data Acquisition] --> B[EDA & Visualization]
-    B --> C[Preprocessing]
-    C --> D[Model Training: Lasso]
-    D --> E[Evaluation & Metrics]
-    E --> F[Cloud Deployment]
- ```
-1. **Data Acquisition:** Importing student dataset using `Pandas` for structured analysis.
-2. **Exploratory Data Analysis (EDA):** Visualizing data distribution and correlation using `Matplotlib` and `Seaborn` to confirm linearity.
-3. **Data Preprocessing:** Splitting the dataset into features ($X$) and target ($y$), followed by a **Train-Test Split** (80/20) to validate model performance.
-4. **Model Training:** Initializing and training the **Lasso Regression** model with L1 Regularization to optimize coefficients.
-5. **Prediction & Testing:** Making predictions on the test set and comparing them against actual results.
-6. **Model Evaluation:** Calculating the **Mean Absolute Error (MAE)** to quantify the model's accuracy and precision.
+| Stage | Process | Key Tools |
+| :--- | :--- | :--- |
+| **01. Data Acquisition** | Importing & cleaning student datasets | `Pandas` |
+| **02. EDA** | Distribution analysis & outlier detection | `Seaborn`, `Matplotlib` |
+| **03. Preprocessing** | Categorical encoding & Train-Test Split | `Scikit-Learn` |
+| **04. Modeling** | Lasso Regression with L1 Regularization | `Scikit-Learn` |
+| **05. Evaluation** | Performance tracking (MAE, R²) | `NumPy`, `Sklearn.metrics` |
+| **06. Deployment** | Containerization & Cloud hosting | `Docker`, `Streamlit` |
+
+---
+
+### 🛠️ Step-by-Step Implementation
+
+1. **📥 Data Acquisition**
+   Integrated student performance datasets using `Pandas` for structured data handling and cleaning.
+
+2. **🔍 Exploratory Data Analysis (EDA)**
+   Leveraged `Matplotlib` and `Seaborn` to analyze score distributions, detect outliers via box plots, and identify linear relationships between reading, writing, and math scores.
+
+3. **⚙️ Data Preprocessing**
+   - Handled categorical encoding for features like Gender, Parental Education, and Lunch type.
+   - Performed **Train-Test Split (80/20)** to ensure unbiased model validation and prevent data leakage.
+
+4. **🤖 Model Training**
+   Trained a **Lasso Regression** model. We utilized **L1 Regularization** to shrink less important coefficients, which helps in automatic feature selection and prevents overfitting.
+
+5. **📊 Model Evaluation**
+   - Verified performance using **MAE (~4.21)** and **R² Score (~0.88)**.
+   - Conducted a comparative analysis against Ridge and Linear regression to ensure Lasso provided the most generalized fit.
+
+6. **🚀 Deployment**
+   Developed an interactive dashboard using **Streamlit** and containerized the application via **Docker** for seamless deployment on **Hugging Face Spaces** and **Streamlit Cloud**.
 
 ---
 
