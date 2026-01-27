@@ -205,7 +205,7 @@ Install all necessary dependencies listed in the requirements file to ensure the
 pip install -r requirements.txt
 ```
 ### 4. Run the Streamlit Dashboard
-Launch the web application locally to interact with the churn prediction model:
+Launch the web application locally to interact with the Student Math Score prediction model:
 ```bash
 streamlit run app.py
 ```
