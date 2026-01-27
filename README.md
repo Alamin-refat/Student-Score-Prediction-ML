@@ -1,6 +1,6 @@
 # 🎓 Student Score Prediction – Machine Learning Project
 
-## 🔍 Project Overview
+## 🎯 Project Overview
 This project focuses on predicting a student’s **Math score** using factors such as reading score, writing score, gender, parental education, lunch type, and test preparation status.
 
 The goal is to showcase a realistic, production-ready machine learning workflow rather than a simple notebook-based experiment.
@@ -14,14 +14,13 @@ The goal is to showcase a realistic, production-ready machine learning workflow 
 
 ---
 
-## 🚀 Key Features
+## ✨ Key Features
 
-* **Lasso Regression Implementation:** Leverages the **Lasso (Least Absolute Shrinkage and Selection Operator)** algorithm to perform linear regression with **L1 Regularization**, minimizing the risk of overfitting.
-* **Predictive Modeling:** Accurately forecasts student Math Score based on study hours, providing data-driven academic insights.
-* **Regularization Control:** Employs an optimized `alpha` parameter to penalize large coefficients, ensuring a more generalized and robust model.
-* **Comprehensive EDA:** Includes **Exploratory Data Analysis** using `Seaborn` and `Matplotlib` to visualize data distribution and the regression best-fit line.
-* **Performance Benchmarking:** Model efficiency is validated using standard metrics like **Mean Absolute Error (MAE)** and **Root Mean Squared Error (RMSE)**.
-* **Scalable Pipeline:** Designed with a clean, modular workflow—from data preprocessing and splitting (`train_test_split`) to final model evaluation.
+* **Lasso Regression:** Implements **L1 Regularization** to enhance model generalization and prevent overfitting.
+* **Predictive Analytics:** Accurately predicts student scores based on providing data-driven academic insights.
+* **Data Visualization:** Includes **EDA** with scatter plots and regression lines for clear data insights.
+* **Performance Metrics:** Evaluated using **Mean Absolute Error (MAE)** to ensure prediction accuracy.
+* **Streamlined Pipeline:** Efficient workflow covering data preprocessing, model training, and testing.
 
 ---
 
@@ -53,6 +52,19 @@ Key EDA steps included:
 - Correlation heatmaps to identify relationships between scores
 
 Insights from EDA guided feature selection and modeling decisions.
+
+---
+
+## 🧠 Technical Workflow
+
+The project follows a structured Machine Learning pipeline to ensure reliable predictions:
+
+1. **Data Acquisition:** Importing student dataset using `Pandas` for structured analysis.
+2. **Exploratory Data Analysis (EDA):** Visualizing data distribution and correlation using `Matplotlib` and `Seaborn` to confirm linearity.
+3. **Data Preprocessing:** Splitting the dataset into features ($X$) and target ($y$), followed by a **Train-Test Split** (80/20) to validate model performance.
+4. **Model Training:** Initializing and training the **Lasso Regression** model with L1 Regularization to optimize coefficients.
+5. **Prediction & Testing:** Making predictions on the test set and comparing them against actual results.
+6. **Model Evaluation:** Calculating the **Mean Absolute Error (MAE)** to quantify the model's accuracy and precision.
 
 ---
 
