@@ -1,5 +1,28 @@
 # 🎓 Student Score Prediction – Machine Learning Project
 
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/Alamin-refat/Student-Score-Prediction-ML?style=for-the-badge&color=blueviolet" alt="Repo Size" />
+  <img src="https://img.shields.io/github/actions/workflow/status/Alamin-refat/Student-Score-Prediction-ML/main.yml?style=for-the-badge&logo=githubactions&logoColor=white" alt="Build Status" />
+  <img src="https://img.shields.io/github/last-commit/Alamin-refat/Student-Score-Prediction-ML?style=for-the-badge&color=orange" alt="Last Commit" />
+  
+  <br />
+
+  <img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
+  
+  <br />
+
+  <a href="https://github.com/Alamin-refat/Student-Score-Prediction-ML/stargazers">
+    <img src="https://img.shields.io/github/stars/Alamin-refat/Student-Score-Prediction-ML?style=for-the-badge&color=ffd700&labelColor=333" alt="Stars" />
+  </a>
+  <a href="https://github.com/Alamin-refat/Student-Score-Prediction-ML/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Alamin-refat/Student-Score-Prediction-ML?style=for-the-badge&color=2ea44f" alt="License" />
+  </a>
+</p>
+
+---
+
 ## 🎯 Project Overview
 This project focuses on predicting a student’s **Math score** using factors such as reading score, writing score, gender, parental education, lunch type, and test preparation status.
 
